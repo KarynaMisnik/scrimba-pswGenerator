@@ -12,10 +12,15 @@
 <body>
     <h1>Generate a <span>random password</span></h1>
     <p>Never use an insecure password again</p>
-    <button id="btn-generate" onclick="generate()">Generate passwords</button>
+    <h1>Generate passwords</h1>
+    <div class = "btn-container">
+    <button id="GenerateEigth" onclick="pswSizeEight()">8-symbols size</button>
+    <button id="GenerateTen" onclick="pswSizeTen()">10-symbols size</button>
+    <button id="GenerateFifteen" onclick="pswSizeFifteen()">15-symbols size</button>
+    <button id="GenerateTwenty" onclick="pswSizeTwenty()">20-symbols size</button>
+    </div>
     <div class="container">
-    <input type="text" id="OptionOne" ></input>
-    <input type="text" id="OptionTwo"></input>
+    <p style="color:aliceblue"  id="pwd" >Password: </p>
     </div>
     <script src="index.js"></script>
 </body>
